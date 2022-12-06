@@ -248,6 +248,7 @@ button:active {
 
 .highlight__wrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .highlight {
@@ -287,6 +288,7 @@ button:active {
   background-color: rgb(115, 66, 214, 0.1);
   padding-top: 8vw;
 }
+
 
 .books {
   display: flex;
@@ -432,5 +434,8 @@ footer {
   }
   .btn__menu {
     display: block;
+  }
+  .highlight {
+    width: 100%;
   }
 }
